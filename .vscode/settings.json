@@ -1,0 +1,14 @@
+
+   {
+  "python.defaultInterpreterPath": ".venv\\Scripts\\python.exe",
+  "python.pythonPath": ".venv\\Scripts\\python.exe",
+  "code-runner.executorMap": {
+    "python": ".venv//Scripts//python.exe"
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
+  "json.schemas": [
+
+  ],
+  "python.REPL.enableREPLSmartSend": false
+}

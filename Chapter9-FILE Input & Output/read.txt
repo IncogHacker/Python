@@ -1,0 +1,4 @@
+Hi This Is The First file which is reading IN Python
+hello my name is Rishabh
+what are you up to
+hey guys

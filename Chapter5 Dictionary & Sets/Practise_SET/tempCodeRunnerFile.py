@@ -1,0 +1,1 @@
+print(f"Your English Word is {meaning}")
