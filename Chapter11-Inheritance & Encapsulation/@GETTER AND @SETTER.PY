@@ -20,9 +20,13 @@ obj=callG_S()
 
 obj.private="Rishabh Singh"  # here Setter calls to set the value not a normal assignment 
 #it acts behind like this 
-#!callG_S.private(obj,"Rishabh Singh")
+#!callG_S.private.fset(obj,"Rishabh Singh")    --fset=read ,f.get=write
 
 print(obj.Fname,obj.Lname)
+
+
+print(obj.private)
+# callG_S.private.fget(obj)  # this runs inside memory function and get the getter
 
 
 

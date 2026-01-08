@@ -1,7 +1,8 @@
 
 
 #basically if one class inherit from another class like taking variable and properties of another class call inheritance
-
+# Inheritance shares structure (methods), NOT data
+# Data must be passed explicitly
 
 class Parent_class:
     Company="Infotech"

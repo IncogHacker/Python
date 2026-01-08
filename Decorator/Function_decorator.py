@@ -5,7 +5,7 @@
 # and it is use so we do not have to repat the code again and gain
 # Decorator is a function that take anotheer function a argument and return the function
 
-
+#! There is no use of class so easy for data hding and fast
 # example
 
 
@@ -16,7 +16,7 @@ def callfunc_decorator(func):  # it goes to @ callfunc_decorator
         func(*args)
         print("After\n")
     
-    return callfunc2  # this goes jahan se call kiya hai
+    return callfunc2  #this return runs when callfucn_decorator calls this goes jahan se call kiya hai mean add=callfunc2 also remember this return is inside callfucn_decorator
 
 
 
@@ -25,9 +25,11 @@ def callfunc_decorator(func):  # it goes to @ callfunc_decorator
 
 @callfunc_decorator
 #the decorator change the function internally like this 
-# add=@callfunc-decorator(add)
-#! then it call the add function and runs callfunc2 and also gives arguments to callfunc2 coz callfunc_decorator return callfunc2
-def add(a=3,b=4):
+# add=@callfunc-decorator(add) --- This call callfucn_decorator(a=3,b=4)
+#! after calling callfunc_decorator(a=3,b=4) the argument bind with the callfunc2()  but it not called yet
+# Then it comes out and return callfunc2 then add= callfucn2 and run it
+
+def add(a=3,b=4):   # when return add=callfucn2 then callfucn2 called and it prints
     print(a+b)
 
 @callfunc_decorator
