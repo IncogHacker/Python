@@ -1,0 +1,17 @@
+
+
+# Another Example
+
+# Step 1: Write to file (with → auto close)
+with open("new_file.txt", "w") as new:
+    new.write("hi this is rishabh")
+
+
+# Step 2: Read file (try–finally → manual close)
+file = open("new_file.txt", "r")
+try:
+    data = file.read()
+    print(data)
+
+finally:
+    file.close()   # this will ALWAYS run so we ar

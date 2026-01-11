@@ -22,7 +22,7 @@ class Three_D_Vector(Two_D_Vector):
 
     def __init__(self,obj1,k):
 
-        super().__init__(obj1.i,obj1.j)
+        super().__init__(obj1.i,obj1.j) #--> This initialize the Two_D_vector.__init__(obj2,obj1.i,obj2.i)
 
         self.k=k 
 
